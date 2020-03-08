@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 set -euo pipefail
-REPO="Enteee/kamikaze"
+REPO="ncmd/kamikaze"
 INSTALL="install -m 755 -o root kamikaze-download kamikaze && chmod u+s kamikaze"
 
 curl -s "https://api.github.com/repos/${REPO}/releases/latest" \
